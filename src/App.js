@@ -5,9 +5,7 @@ import { Navbar } from './components';
 import './App.css';
  
 const App = () => (
-  <div>
-    <HashRouter>
-      <Routes>      
+  <div>   
     <Navbar />
     <Header />
     <AboutUs />
@@ -18,8 +16,6 @@ const App = () => (
     <Gallery />
     <FindUs />
     <Footer />
-    </Routes>
-    </HashRouter>
   </div>
 );
 
