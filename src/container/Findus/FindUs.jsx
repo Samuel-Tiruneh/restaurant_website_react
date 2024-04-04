@@ -10,8 +10,8 @@ const FindUs = () => (
       <div className="app__wrapper-content">
         <p className="p__opensans">Avaliable working hours of our restaurant</p>
         <p className="p__cormorant" style={{color: "#DCCA87" ,margin: '2rem 0'} }>Opening Hours</p>
-        <p className="p__opensans">Mon - Fri: 10:00-am - 2:00am</p>
-        <p className="p__opensans">SAt - Sun: 10:00am - 3:00am</p>
+        <p className="p__opensans">Mon - Fri: 1:00AM - 6:00PM</p>
+        <p className="p__opensans">Sat - Sun: 1:00AM - 9:00PM</p>
       </div>
 
       <button className='custom__button' style={{marginTop: '2rem'}}>Visit Us</button>

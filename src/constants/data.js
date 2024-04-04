@@ -2,81 +2,86 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
+    title: 'Budweiser',
     price: '$56',
-    tags: 'AU | Bottle',
+    tags: '1000 ml',
   },
   {
-    title: 'Catena Malbee',
+    title: 'Tsingtao',
     price: '$59',
-    tags: 'AU | Bottle',
+    tags: '850 ml',
   },
   {
-    title: 'La Vieillw Rose',
+    title: 'Heinkenen',
     price: '$44',
-    tags: 'FR | 750 ml',
+    tags: '750 ml',
   },
   {
-    title: 'Rhino Pale Ale',
+    title: 'Bud Light',
     price: '$31',
-    tags: 'CA | 750 ml',
+    tags: '750 ml',
   },
   {
     title: 'Irish Guinness',
     price: '$26',
-    tags: 'IE | 750 ml',
+    tags: '750 ml',
   },
 ];
 
-const cocktails = [
+const Meals = [
   {
     title: 'Aperol Sprtiz',
     price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    tags: 'Special',
+    
   },
   {
     title: "Dark 'N' Stormy",
     price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    tags: 'Special',
+    
   },
   {
     title: 'Daiquiri',
     price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    tags: 'Special',
+
   },
   {
     title: 'Old Fashioned',
     price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    tags: 'Special',
+    
   },
   {
     title: 'Negroni',
     price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    tags: 'Special',
+   
   },
 ];
 
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Quality Service',
+    subtitle: 'Services Matter',
   },
   {
     imgUrl: images.award01,
     title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'Level-3 Restaurants Compitation',
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Good Hospitality',
+    subtitle: 'Given by customer vote',
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Number one Chef',
+    subtitle: '2022 Chef Award',
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { wines, Meals, awards };
