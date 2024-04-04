@@ -6,6 +6,8 @@ import './App.css';
  
 const App = () => (
   <div>
+    <HashRouter>
+      <Routes>      
     <Navbar />
     <Header />
     <AboutUs />
@@ -16,6 +18,8 @@ const App = () => (
     <Gallery />
     <FindUs />
     <Footer />
+    </Routes>
+    </HashRouter>
   </div>
 );
 
